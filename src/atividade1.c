@@ -1,10 +1,29 @@
 #include <stdio.h>
+#include "../lib/atividade1.h"
 
 int main(){
-    int n[] = {33,8,7,11,54,77,13,16}; 
-    printf ("pares");
-    for(p = 0; p<=9; p++){
-        if(n[p] % 2 == 0){
-            printf("%d,")
-        }
-    }
+
+   // int v1,v2;
+   // printf("Digite um número\n");
+   // scanf("%d" ,&v2);
+
+   // printf("%d\n", maior(v1,v2));
+
+    
+    //char letra;
+    //printf("Digite M-masculino ou F-Feminino\n");
+    //scanf("%c" ,&letra);
+    //sexo(letra);
+
+    //char letra;
+    //printf("Digite umna letra\n");
+    //scanf("%c", &letra);
+    //vogal(letra);
+
+    float sal;
+    printf ("Digite o salário do funcionário:\n");
+    scanf ("%f", &sal);
+    reajuste(sal);
+
+    return 0;
+}

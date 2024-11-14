@@ -44,21 +44,7 @@ else{
     printf("%c é consoante", letra);
 }
 }
-void vogal1(char letra){
-    if(letra== 'a' || letra== 'e' || letra== 'i' || letra== 'o' || letra== 'u'){
-    printf("A letra digitada é uma vogal");   
-        }
-    else{ 
-        printf("A letra digitada é consoante");
-    }    
-}
-
-void reajuste(float salario){
-
-    float valor_aumento;
-    float novo_salario;
-    if(salario <= 280){
-        valor_aumento = salario * (20.0 / 100);
+void vogal1(char letra){ = salario * (20.0 / 100);
         novo_salario = salario + valor_aumento;
         printf("O salário antigo é %f e foi reajustado em 20%. O valor de aumento é %f e novo salário é %f\n",salario, valor_aumento,novo_salario);
 
